@@ -1,0 +1,64 @@
+@mixin strokeAnimation($dash-array){
+    stroke-dasharray: $dash-array;
+    stroke-dashoffset: $dash-array;
+    animation: altcampusLogo 1.5s ease forwards;
+}
+
+body {
+    background: #111;
+}
+
+.altCampus {
+    stroke: #30BA67;
+    stroke-width: 1px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line {
+    @include strokeAnimation(303.6993713378906);
+}
+
+.alt :nth-child(1){
+    @include strokeAnimation(75.16999816894531);
+}
+
+.alt :nth-child(2){
+    @include strokeAnimation(53.52511978149414);
+}
+
+.alt :nth-child(3){
+    @include strokeAnimation(51.473453521728516);
+}
+
+.campus :nth-child(1){
+    @include strokeAnimation(58.661041259765625);
+}
+
+.campus :nth-child(2){
+    @include strokeAnimation(57.78635025024414);
+}
+
+.campus :nth-child(3){
+    @include strokeAnimation(98.76461791992188);
+}
+
+.campus :nth-child(4){
+    @include strokeAnimation(59.37822723388672);
+}
+
+.campus :nth-child(5){
+    @include strokeAnimation(303.6993713378906);
+}
+
+.campus :nth-child(6){
+    @include strokeAnimation(303.6993713378906);
+}
+
+@keyframes altcampusLogo {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

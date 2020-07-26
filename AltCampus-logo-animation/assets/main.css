@@ -1,0 +1,95 @@
+body {
+  background: #111;
+}
+
+.altCampus {
+  stroke: #30BA67;
+  stroke-width: 1px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.line {
+  stroke-dasharray: 303.69937;
+  stroke-dashoffset: 303.69937;
+  -webkit-animation: altcampusLogo 1.5s ease forwards;
+          animation: altcampusLogo 1.5s ease forwards;
+}
+
+.alt :nth-child(1) {
+  stroke-dasharray: 75.17;
+  stroke-dashoffset: 75.17;
+  -webkit-animation: altcampusLogo 1.5s ease forwards;
+          animation: altcampusLogo 1.5s ease forwards;
+}
+
+.alt :nth-child(2) {
+  stroke-dasharray: 53.52512;
+  stroke-dashoffset: 53.52512;
+  -webkit-animation: altcampusLogo 1.5s ease forwards;
+          animation: altcampusLogo 1.5s ease forwards;
+}
+
+.alt :nth-child(3) {
+  stroke-dasharray: 51.47345;
+  stroke-dashoffset: 51.47345;
+  -webkit-animation: altcampusLogo 1.5s ease forwards;
+          animation: altcampusLogo 1.5s ease forwards;
+}
+
+.campus :nth-child(1) {
+  stroke-dasharray: 58.66104;
+  stroke-dashoffset: 58.66104;
+  -webkit-animation: altcampusLogo 1.5s ease forwards;
+          animation: altcampusLogo 1.5s ease forwards;
+}
+
+.campus :nth-child(2) {
+  stroke-dasharray: 57.78635;
+  stroke-dashoffset: 57.78635;
+  -webkit-animation: altcampusLogo 1.5s ease forwards;
+          animation: altcampusLogo 1.5s ease forwards;
+}
+
+.campus :nth-child(3) {
+  stroke-dasharray: 98.76462;
+  stroke-dashoffset: 98.76462;
+  -webkit-animation: altcampusLogo 1.5s ease forwards;
+          animation: altcampusLogo 1.5s ease forwards;
+}
+
+.campus :nth-child(4) {
+  stroke-dasharray: 59.37823;
+  stroke-dashoffset: 59.37823;
+  -webkit-animation: altcampusLogo 1.5s ease forwards;
+          animation: altcampusLogo 1.5s ease forwards;
+}
+
+.campus :nth-child(5) {
+  stroke-dasharray: 303.69937;
+  stroke-dashoffset: 303.69937;
+  -webkit-animation: altcampusLogo 1.5s ease forwards;
+          animation: altcampusLogo 1.5s ease forwards;
+}
+
+.campus :nth-child(6) {
+  stroke-dasharray: 303.69937;
+  stroke-dashoffset: 303.69937;
+  -webkit-animation: altcampusLogo 1.5s ease forwards;
+          animation: altcampusLogo 1.5s ease forwards;
+}
+
+@-webkit-keyframes altcampusLogo {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes altcampusLogo {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
